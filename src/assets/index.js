@@ -3,6 +3,11 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import excel from "./excel.png";
+import cypress from "./cypress.jpg";
+import jmeter from "./jmeter.png";
+import manualtesting from "./Manual-Testing.png";
+import postman from "./postman.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  excel,
+  cypress,
+  jmeter,
+  manualtesting,
+  postman,
 };

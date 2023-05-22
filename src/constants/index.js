@@ -23,6 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    excel,
+    cypress,
+    jmeter,
+    manualtesting,
+    postman,
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +47,24 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Manual Testing",
+      icon: manualtesting,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Automation Testing",
+      icon: cypress,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "API Testing",
+      icon: postman,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Load Testing",
+      icon: jmeter,
+    },
+    {
+      title: "TestCase Writing",
+      icon: excel,
     },
   ];
   

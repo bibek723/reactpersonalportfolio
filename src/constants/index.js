@@ -28,6 +28,8 @@ import {
     jmeter,
     manualtesting,
     postman,
+    ekbana,
+    incticlabs,
   } from "../assets";
   
   export const navLinks = [
@@ -59,7 +61,7 @@ import {
       icon: postman,
     },
     {
-      title: "Load Testing",
+      title: "Performance / Load Testing",
       icon: jmeter,
     },
     {
@@ -125,57 +127,35 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "QA Intern",
+      company_name: "EK Bana Solutions Pvt Ltd",
+      icon: ekbana,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August  2021 - December 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Acquired a strong foundation in software testing principles, methodologies, and tools. I gained knowledge in manual testing techniques, test case creation, and defect tracking.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participated in regression testing cycles to verify that previously fixed defects did not resurface and that new features did not impact existing functionality. ",
+        "Worked collaboratively as part of a QA team, actively contributing to team meetings, sharing knowledge, and fostering a positive and supportive work environment. ",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Quality Assurance Engineer",
+      company_name: "Inctic Labs Pvt Ltd",
+      icon: incticlabs,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing comprehensive test plans that outline the testing scope, objectives, and strategies for various software projects.",
+        "Conducting manual and automated tests to validate software functionality, identify defects, and ensure adherence to quality standards.",
+        "Tracking, documenting, and managing defects using bug tracking systems, and working closely with developers to ensure timely resolution.",
+        "Performing regression tests to verify that bug fixes and feature enhancements do not introduce new issues or adversely impact existing functionality.",
+        "Identifying areas for process improvement, suggesting and implementing best practices, and actively participating in retrospectives to enhance the overall quality assurance process.",
+        "Sharing knowledge and expertise with junior QA team members, providing guidance, and fostering a culture of learning and growth within the team.",
+        "Staying updated with the latest industry trends, emerging technologies, and testing methodologies through self-learning, training, and attending relevant conferences and workshops.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [

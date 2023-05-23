@@ -7,6 +7,9 @@ import excel from "./excel.png";
 import cypress from "./cypress.jpg";
 import jmeter from "./jmeter.png";
 import manualtesting from "./Manual-Testing.png";
+import automationtesting from "./automationtesting.png";
+import apitesting from "./apitesting.png";
+import performancetesting from "./performancetesting.png";
 import postman from "./postman.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -73,4 +76,7 @@ export {
   postman,
   ekbana,
   incticlabs,
+  automationtesting,
+  apitesting,
+  performancetesting,
 };

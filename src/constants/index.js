@@ -33,6 +33,9 @@ import {
     apitesting,
     automationtesting,
     performancetesting,
+    facebook,
+    instagram,
+    linkedin,
   } from "../assets";
   
   export const navLinks = [
@@ -97,6 +100,28 @@ import {
       icon: jmeter,
     },
     
+    
+  ];
+
+  const socialmedias = [
+    {
+      name: "Cypress",
+      icon: facebook,
+      url: "https://www.facebook.com/bibekkharel723",
+    },
+    {
+      name: "API Testing",
+      icon: instagram,
+      url: "https://www.instagram.com/vibek_kharel/",
+   
+    },
+    {
+      name: "JavaScript",
+      icon: linkedin,
+      url: "https://www.linkedin.com/in/bibek-kharel-a0a6b316b/",
+    
+    },
+       
     
   ];
   
@@ -203,4 +228,4 @@ import {
    
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, socialmedias };

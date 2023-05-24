@@ -37,6 +37,10 @@ import tesla from "./company/tesla.png";
 import ekbana from "./company/ekbana.jpeg";
 import incticlabs from "./company/incticlabs.jpeg";
 
+import facebook from "./social/facebook.png";
+import instagram from "./social/instagram.png";
+import linkedin from "./social/linkedin.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -81,4 +85,7 @@ export {
   automationtesting,
   apitesting,
   performancetesting,
+  facebook,
+  instagram,
+  linkedin,
 };

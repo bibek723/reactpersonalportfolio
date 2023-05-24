@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo1 from "./logo.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -36,12 +37,17 @@ import tesla from "./company/tesla.png";
 import ekbana from "./company/ekbana.jpeg";
 import incticlabs from "./company/incticlabs.jpeg";
 
+import facebook from "./social/facebook.png";
+import instagram from "./social/instagram.png";
+import linkedin from "./social/linkedin.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
+  logo1,
   backend,
   creator,
   mobile,
@@ -79,4 +85,7 @@ export {
   automationtesting,
   apitesting,
   performancetesting,
+  facebook,
+  instagram,
+  linkedin,
 };

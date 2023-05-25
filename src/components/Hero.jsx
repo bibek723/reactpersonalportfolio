@@ -33,7 +33,7 @@ const Hero = () => {
           Delivering top-notch software quality.
           </p>
 
-          <div className="absolute top-55 left-2/2 mt-4 ">
+          <div className="absolute top-55 left-2/2 mt-4 z-20">
         <button
           className={`py-3 px-8 bg- border text-white font-semibold rounded-full shadow-lg hover:bg-primary-dark cursor-pointer`}
           onClick={handleDownload}

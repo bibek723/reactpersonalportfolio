@@ -30,7 +30,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           Dedicated QA engineer  <br className='sm:block hidden' />
-          Delivering top-notch software quality.
+          Delivering top-notch software quality. 
           </p>
 
           <div className="absolute top-55 left-2/2 mt-4 z-20">

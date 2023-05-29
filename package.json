@@ -7,9 +7,9 @@
   "scripts": {
     "start": "node node_modules/react-scripts/scripts/start.js",
     "dev": "vite",
-    "build": "node node_modules/react-scripts/scripts/build.js",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "build": "vite build",
     "preview": "vite preview",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "node node_modules/react-scripts/scripts/test.js",

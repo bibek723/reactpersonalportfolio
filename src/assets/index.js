@@ -5,7 +5,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import excel from "./excel.png";
-import cypress from "./cypress.jpg";
+import cypress from "./cypress.png";
 import jmeter from "./jmeter.png";
 import manualtesting from "./Manual-Testing.png";
 import automationtesting from "./automationtesting.png";

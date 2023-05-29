@@ -7,7 +7,7 @@ const Hero = () => {
   const handleDownload = () => {
     // Handle download logic here
     const link = document.createElement("a");
-    link.href = "./src/assets/Bibek-resume.pdf"; // Replace with the actual path to the CV file
+    link.href = "./Bibek-resume.pdf"; // Replace with the actual path to the CV file
     link.download = "Bibek_Kharel_CV.pdf"; // Replace with the desired file name
     link.target = "_blank";
 
@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="absolute top-55 left-2/2 mt-4 z-20">
         <button
           className={`py-3 px-8 bg- border text-white font-semibold rounded-full shadow-lg hover:bg-primary-dark cursor-pointer`}
-          onClick={handleDownload}
+          onClick={(handleDownload)}
         >
           Download CV
         </button>
